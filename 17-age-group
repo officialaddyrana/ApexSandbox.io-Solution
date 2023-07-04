@@ -1,9 +1,9 @@
 public String ageGroup(Integer n) {
     //code here
-    if(n==0){
+    if(n<=1){
         return 'Infant';
     }
-    else if(n<=2){
+    else if(n<=14){
         return  'Child';
     }
     else if(n<=21){
