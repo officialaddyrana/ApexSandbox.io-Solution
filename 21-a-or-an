@@ -1,0 +1,11 @@
+public String aOrAn(String word) {
+    if(word starWith a)
+    {
+        system.debug('an '+word)
+    }
+    else
+    {
+        system.debug('a '+word)
+    }
+
+}
