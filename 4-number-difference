@@ -1,3 +1,4 @@
 public Integer diff(Integer a, Integer b) {
-Math.abs=a-b;
+Integer r= diff(5,2);
+System.assertEquals('Diff of a and b should be '+r);
 }
