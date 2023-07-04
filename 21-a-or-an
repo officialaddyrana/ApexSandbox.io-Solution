@@ -1,11 +1,11 @@
 public String aOrAn(String word) {
     if(aOrAn.startsWith('a'))
     {
-        system.debug('an '+word)
+        system.debug('an ')
     }
     else
     {
-        system.debug('a '+word)
+        system.debug('a ')
     }
 
 }
