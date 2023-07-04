@@ -5,4 +5,5 @@ public Integer sumToN(Integer n) {
     {
         s=s+i;
     }
+    return s;
 }
