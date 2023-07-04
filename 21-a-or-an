@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-    if(word starWith a)
+    if(word starsWith a)
     {
         system.debug('an '+word)
     }
