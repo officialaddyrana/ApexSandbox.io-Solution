@@ -1,0 +1,24 @@
+public Boolean isLeapYear(Integer year) {
+    //code here
+        if((math.mod(year, 4)==0)&&(math.mod(year, 100)==0)&&(math.mod(year, 400)==0)) {
+
+            system.debug('Its a leap year');
+
+            return true;
+
+        }
+
+        else if ((math.mod(year, 4)==0)&&(math.mod(year, 100)!=0)&&(math.mod(year, 400)!=0)) {
+
+            system.debug('Its a leap year');
+
+        return true;
+
+    }
+
+    else 
+
+        system.debug('Not a leap year');
+
+    return false;
+}
