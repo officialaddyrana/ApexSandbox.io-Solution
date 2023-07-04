@@ -22,7 +22,7 @@ public Integer rockPaperScissors(String player1, String player2) {
    }
    else if(player1=='scissors'&& player2=='rock')
    {
-       return 1;
+       return 2;
    }
    else{
        return 0;
