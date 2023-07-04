@@ -1,0 +1,8 @@
+public Integer sumToN(Integer n) {
+    //code here
+    Integer s=0;
+    for(Integer i;i<=n;i++)
+    {
+        s=s+i;
+    }
+}
