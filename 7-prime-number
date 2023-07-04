@@ -1,7 +1,7 @@
 public Boolean isPrime(Integer num) {
     //code here
     Integer i;
-    if(num>1)
+    if(num>1){
     for(i=2;i<num;i++)
     {
       if(Math.mod(num,i)==0)
@@ -11,6 +11,6 @@ public Boolean isPrime(Integer num) {
       else{
           return true;
       }
-    
+    }
     }
 }
