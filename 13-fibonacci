@@ -5,7 +5,7 @@ public Integer fibonacci(Integer n) {
     {
         return 1;
     }
-if(n>2)
+else(n>2)
     {
        while(i<=n)
        {
