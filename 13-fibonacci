@@ -1,5 +1,4 @@
 public Integer fibonacci(Integer n) {
-    //code here
     Integer i,a=1,b=1,sum;
     if(n==1||n==2)
     {
@@ -9,7 +8,7 @@ public Integer fibonacci(Integer n) {
     {
        while(i<=n)
        {
-        sum=a+b;
+        sum=i+b;
         a=b;
         b=sum;
        }
