@@ -3,8 +3,5 @@ public Id insertStudent(String name, String email) {
         student.Name = name;
         student.apxio__Email__c = email; 
         insert student;
-        if([SELECT Id, Name, apxio__Email__c FROM apxio__Student__c].size() == 2) {
-            delete [SELECT Id FROM apxio__Student__c WHERE Id != :student.Id];
-        }
-        return student.id;
+    return student.id;
 }
