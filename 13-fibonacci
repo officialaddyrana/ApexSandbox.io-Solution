@@ -14,5 +14,5 @@ public Integer fibonacci(Integer n) {
         b=sum;
        }
     }
-    return sum;
+    return fibonacci(n) =sum;
 }
