@@ -12,6 +12,7 @@ public Integer fibonacci(Integer n) {
         a=b;
         b=sum;
        }
+       i++;
     }
     return fibonacci(n) =sum;
 }
