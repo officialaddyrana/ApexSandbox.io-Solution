@@ -5,14 +5,13 @@ public Integer fibonacci(Integer n) {
     {
         return 1;
     }
-else(n>2)
+    else(n>2)
     {
        while(i<=n)
        {
-         sum=a+b;
-         a=b;
-         b=sum;
+        sum=a+b;
+        a=b;
+        b=sum;
        }
     return sum;
-    }
 }
